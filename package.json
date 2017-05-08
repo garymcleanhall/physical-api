@@ -1,0 +1,34 @@
+{
+  "name": "physical-api",
+  "version": "0.1.0",
+  "description": "Physical module for checking healthcheck of a downstream api which also implements a physical healthcheck endpoint",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garymcleanhall/physical-api.git"
+  },
+  "keywords": [
+    "physical",
+    "module",
+    "api",
+    "downstream",
+    "healthcheck",
+    "status",
+    "heartbeat"
+  ],
+  "author": "Gary McLean Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garymcleanhall/physical-api/issues"
+  },
+  "homepage": "https://github.com/garymcleanhall/physical-api#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
